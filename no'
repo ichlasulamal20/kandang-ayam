@@ -1,0 +1,65 @@
+CREATE TABLE reading_sensor (
+	id int NOT NULL AUTO_INCREMENT,
+    date DATETIME,
+    temp1 int,
+    temp2 int,
+    temp3 int,
+    temp4 int,
+    temp5 int,
+    temp6 int,
+    humid1 int,
+    humid2 int,
+    humid3 int,
+    humid4 int,
+    humid5 int,
+    humid6 int,
+    gas1 int,
+    gas2 int,
+    gas3 int,
+    gas4 int,
+    gas5 int,
+    gas6 int,
+    PRIMARY KEY (id)
+);
+
+INSERT INTO `reading_sensor`
+(`id`, `date`, `temp1`, `temp2`, `temp3`, `temp4`, `temp5`, `temp6`, `humid1`, `humid2`, `humid3`, `humid4`, `humid5`, `humid6`, `gas1`, `gas2`, `gas3`, `gas4`, `gas5`, `gas6`) VALUES 
+('1','2023-04-01 10:20:20',
+'32','31','32','32','32','32',
+'60','61','60','62','60','60',
+'520','550','520','539','540','510')
+
+INSERT INTO `reading_sensor`
+(`id`, `date`, `temp1`, `temp2`, `temp3`, `temp4`, `temp5`, `temp6`, `humid1`, `humid2`, `humid3`, `humid4`, `humid5`, `humid6`, `gas1`, `gas2`, `gas3`, `gas4`, `gas5`, `gas6`) VALUES 
+('2','2023-04-02 10:20:20',
+'31','31','31','30','31','31',
+'65','65','60','65','60','60',
+'552','550','540','540','530','522')
+
+INSERT INTO `reading_sensor`
+(`id`, `date`, `temp1`, `temp2`, `temp3`, `temp4`, `temp5`, `temp6`, `humid1`, `humid2`, `humid3`, `humid4`, `humid5`, `humid6`, `gas1`, `gas2`, `gas3`, `gas4`, `gas5`, `gas6`) VALUES 
+('3','2023-04-03 10:20:20',
+'29','29','29','29','30','29',
+'65','65','68','62','65','60',
+'400','420','430','430','444','420')
+
+INSERT INTO `reading_sensor`
+(`id`, `date`, `temp1`, `temp2`, `temp3`, `temp4`, `temp5`, `temp6`, `humid1`, `humid2`, `humid3`, `humid4`, `humid5`, `humid6`, `gas1`, `gas2`, `gas3`, `gas4`, `gas5`, `gas6`) VALUES 
+('4','2023-04-04 10:20:20',
+'32','32','32','33','32','32',
+'75','66','70','75','68','68',
+'415','417','413','439','433','410')
+
+INSERT INTO `reading_sensor`
+(`id`, `date`, `temp1`, `temp2`, `temp3`, `temp4`, `temp5`, `temp6`, `humid1`, `humid2`, `humid3`, `humid4`, `humid5`, `humid6`, `gas1`, `gas2`, `gas3`, `gas4`, `gas5`, `gas6`) VALUES 
+('5','2023-04-05 10:20:20',
+'33','31','32','33','33','32',
+'70','70','66','62','66','70',
+'451','447','445','445','443','442')
+
+INSERT INTO `reading_sensor`
+(`id`, `date`, `temp1`, `temp2`, `temp3`, `temp4`, `temp5`, `temp6`, `humid1`, `humid2`, `humid3`, `humid4`, `humid5`, `humid6`, `gas1`, `gas2`, `gas3`, `gas4`, `gas5`, `gas6`) VALUES 
+('6','2023-04-06 10:20:20',
+'33','31','33','32','32','32',
+'69','66','62','62','65','70',
+'500','550','520','539','530','530')
